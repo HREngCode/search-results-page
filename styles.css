@@ -1,0 +1,244 @@
+.head-items {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand-icon {
+  margin-left: 27px;
+  width: 92px;
+  height: 30px;
+}
+
+.search-bar-container {
+  display: flex;
+  justify-content: flex-end;
+  z-index: 3;
+  width: 100%;
+  min-height: 44px;
+  background: white;
+  border: 1px solid #5f6368;
+  box-shadow: 0 1px 3px rgba(23,23,23,0.24);
+  border-radius: 24px;
+  margin-left: 50px;
+  margin-right: 300px;
+}
+
+.textarea-container {
+  display: flex;
+  padding: 5px 4px 0 14px;
+}
+
+.textarea {
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 6px;
+  font: 16px arial,sans-serif;
+  line-height: 22px;
+  margin-bottom: 8px;
+}
+
+.search-text {
+  display: flex;
+  align-items: center;
+  padding-right: 6px;
+}
+
+.user-profile-items {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.profile-image img {
+  border: 0;
+  border-radius: 50%;
+}
+
+.filter-settings-container {
+  height: 50px;
+  display: flex;
+  margin-left: 115px;
+  align-items: center;
+}
+
+.filter-settings-container .filters ul,
+.filter-settings-container .setting-links ul, 
+.results-page-links ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.filter-settings-container .filters ul li,
+.filter-settings-container .setting-links ul li{
+  display: flex;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+.filter-settings-container .filters ul li a,
+.filter-settings-container .setting-links ul li a{
+  display: flex;
+  font-size: 14px;
+  text-decoration: none;
+  align-items: center;
+}
+
+.filter-settings-container .filters ul li img {
+  padding-right: 5px;
+}
+
+.setting-links {
+  display: flex;
+  width: 300px;
+  justify-content: flex-end;
+}
+
+.search-results, .results-info {
+  position: relative;
+  margin-left: 85px;
+}
+
+.results-info-container {
+  height: 43px;
+}
+
+.results-info {
+  color: #9aa0a6;
+  display: flex;
+  justify-content: space-between;
+  line-height: 43px;
+  min-width: 652px;
+  top: 0;
+}
+
+.results-list-container { margin-left: 165px; }
+
+.results-item, .results-link {
+  font-family: Roboto,arial,sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  display: inline-block;
+}
+.results-item, .results-link h3, .results-summary p {
+  margin: 5px;
+}
+
+.results-cite-info cite {
+  color: black;
+  font-style: normal;
+}
+
+.results-link a, .results-page-links a{
+  color:#1a0dab;
+  text-decoration: none;
+}
+
+.results-summary p {
+  margin: 0;
+}
+
+.results-page-links {
+  font-family: Roboto,arial,sans-serif;
+  font-size: 14px;
+}
+
+.results-page-links ul{
+  padding: 2px;
+  margin: 2px;
+}
+
+.results-page-links ul li a{
+  text-decoration: none;
+}
+
+.results-page-links ul li a{
+  color: greenyellow;
+  transition: color 2s;
+}
+
+.results-page-links ul li a:hover{
+  color: red
+}
+
+.also-ask-container {
+  border: 1px solid gray;
+  margin-top: 30px;
+  margin-bottom: 44px;
+  position: relative;
+  width: 75%;
+}
+
+.also-ask-title {
+  font-family: Google Sans,Roboto,arial,sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  padding: 10px 20px;
+}
+
+.question-container .also-ask-question{
+  display: flex;
+  border: 1px solid gray;
+  width: 100%;
+  font-size: medium;
+  font-weight: normal;
+  font-family: Roboto,arial,sans-serif;
+  clear: both;
+  margin-left: 0;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  position: relative;
+  justify-content: space-between;
+}
+
+.question{
+  display: flex;
+  align-items: center;
+}
+
+.question-more-info{
+  display: flex;
+}
+
+footer {
+  margin-right: 100px;
+}
+
+.footer-top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.footer-top .right-arrow{
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-bottom ul{
+  display: flex;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-bottom ul li, .next-page-link a{
+  font-size: 24px;
+  color: #1A0DAB;
+}
+
+.footer-bottom ul li a, .next-page-link a{
+  text-decoration: none;
+  padding: 0 8px;
+}
